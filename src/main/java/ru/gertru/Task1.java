@@ -6,10 +6,10 @@ public class Task1 {
         String mask = "**** **** **** ";
 
         String cardNumber = "1234 5678 9012 3456";
-        System.out.println("Номер с пробелами:  " + mask + cardNumber.substring(cardNumber.length() - 4));
+        System.out.println("Номер с пробелами:  " + mask + cardNumber.substring(cardNumber.length() - 4)); // Оставляем 4 последние цифры от номера карты и добавляем их к подготовленной маске
 
         String cardNumber2 = "1234567890123456";
-        System.out.println("Номер без пробелов: " + mask + cardNumber2.substring(cardNumber2.length() - 4));
+        System.out.println("Номер без пробелов: " + mask + cardNumber2.substring(cardNumber2.length() - 4)); // Оставляем 4 последние цифры от номера карты и добавляем их к подготовленной маске
 
     }
 }
